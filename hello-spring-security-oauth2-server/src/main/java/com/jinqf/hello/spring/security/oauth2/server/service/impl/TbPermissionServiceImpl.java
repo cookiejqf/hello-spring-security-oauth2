@@ -1,7 +1,7 @@
 package com.jinqf.hello.spring.security.oauth2.server.service.impl;
 
 import com.jinqf.hello.spring.security.oauth2.server.domain.TbPermission;
-import com.jinqf.hello.spring.security.oauth2.server.mapper.TbPermissionMapper;
+import com.jinqf.hello.spring.security.oauth2.server.mapper.TbPermissionMyMapper;
 import com.jinqf.hello.spring.security.oauth2.server.service.TbPermissionService;
 import org.springframework.stereotype.Service;
 
@@ -12,7 +12,7 @@ import java.util.List;
 public class TbPermissionServiceImpl implements TbPermissionService{
 
     @Resource
-    private TbPermissionMapper tbPermissionMapper;
+    private TbPermissionMyMapper tbPermissionMapper;
 
     @Override
     public List<TbPermission> selectByUserId(Long id) {
