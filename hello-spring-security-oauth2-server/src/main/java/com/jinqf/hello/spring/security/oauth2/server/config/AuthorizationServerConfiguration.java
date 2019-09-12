@@ -50,7 +50,10 @@ public class AuthorizationServerConfiguration extends AuthorizationServerConfigu
 
     @Override
     public void configure(AuthorizationServerEndpointsConfigurer endpoints) throws Exception {
+        // 最后一个参数为替换之后授权页面的url
         endpoints.tokenStore(tokenStore());
+        endpoints.pathMapping("/oauth/confirm_access","/custom/confirm_access");
+
     }
 
     @Override
