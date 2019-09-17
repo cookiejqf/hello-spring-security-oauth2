@@ -1,4 +1,4 @@
-package com.jinqf.hello.spring.security.oauth2.server.config;
+package com.jinqf.hello.spring.security.oauth2.server.service.impl;
 
 import com.jinqf.hello.spring.security.oauth2.server.domain.TbPermission;
 import com.jinqf.hello.spring.security.oauth2.server.domain.TbUser;
