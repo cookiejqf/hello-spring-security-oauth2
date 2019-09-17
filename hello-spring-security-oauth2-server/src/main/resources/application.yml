@@ -17,7 +17,7 @@ spring:
       connection-timeout: 30000
       connection-test-query: SELECT 1
   thymeleaf:
-    prefix: classpath:/views/
+    prefix: classpath:/templates/
     suffix: .html
     cache: false
   mvc:

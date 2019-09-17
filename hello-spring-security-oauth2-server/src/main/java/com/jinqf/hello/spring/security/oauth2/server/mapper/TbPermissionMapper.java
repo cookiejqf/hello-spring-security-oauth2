@@ -6,6 +6,6 @@ import tk.mybatis.mapper.MyMapper;
 
 import java.util.List;
 
-public interface TbPermissionMyMapper extends MyMapper<TbPermission> {
+public interface TbPermissionMapper extends MyMapper<TbPermission> {
     List<TbPermission> selectByUserId(@Param("id") Long id);
 }

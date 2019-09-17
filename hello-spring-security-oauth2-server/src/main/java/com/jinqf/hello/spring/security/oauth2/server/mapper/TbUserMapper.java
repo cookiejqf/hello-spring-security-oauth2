@@ -3,5 +3,5 @@ package com.jinqf.hello.spring.security.oauth2.server.mapper;
 import com.jinqf.hello.spring.security.oauth2.server.domain.TbUser;
 import tk.mybatis.mapper.MyMapper;
 
-public interface TbUserMyMapper extends MyMapper<TbUser> {
+public interface TbUserMapper extends MyMapper<TbUser> {
 }
